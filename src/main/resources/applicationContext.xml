@@ -20,6 +20,8 @@
                 <beans:entry key="solace.messaging.authentication.basic.username" value="${service.solace-publishing.client-username}"/>
                 <beans:entry key="solace.messaging.authentication.basic.password" value="#{environment['service.solace-publishing.client-password']}"/>
                 <beans:entry key="solace.messaging.service.publishers.persistent.ack-window-size" value="255"/>
+                <beans:entry key="google.messaging.pubsub.project" value="${service.google-pubsub.project}"/>
+                <beans:entry key="google.messaging.pubsub.topic" value="${service.google-pubsub.topic}"/>
             </beans:map>
         </beans:constructor-arg>
 
