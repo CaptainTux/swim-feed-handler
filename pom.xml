@@ -99,6 +99,11 @@
 			<version>5.5.14</version>
 			<scope>test</scope>
 		</dependency>
+		<dependency>
+			<groupId>com.google.cloud</groupId>
+			<artifactId>google-cloud-pubsub</artifactId>
+			<version>1.90.0</version>
+        </dependency>
 	</dependencies>
 
 	<build>
